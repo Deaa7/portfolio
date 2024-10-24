@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fdf90e5.css",
+    "main.js": "/static/js/main.8aebadc3.js",
+    "static/media/10.jpg": "/static/media/10.9017f3c691a862adc2ab.jpg",
+    "static/media/cv.pdf": "/static/media/cv.f717bd50f6eb2a9084c2.pdf",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
+    "static/media/7.pdf": "/static/media/7.337718eec75b5981cd9c.pdf",
+    "static/media/6.pdf": "/static/media/6.10d3f100b4ce4f64ce22.pdf",
+    "static/media/11.jpg": "/static/media/11.2b604c1efe418cfeb977.jpg",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
+    "static/media/3.pdf": "/static/media/3.c24d08db523c17b6b8c4.pdf",
+    "static/media/4.pdf": "/static/media/4.1e059454cd305121bb52.pdf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
+    "static/media/2.pdf": "/static/media/2.9ee118568c6f0ec0b620.pdf",
+    "static/media/1.pdf": "/static/media/1.021884d601a5575a4dd4.pdf",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.8d3cabfc66809162fb4d.woff2",
+    "static/media/8.jpg": "/static/media/8.4e6635d8e7e44589bd47.jpg",
+    "static/media/9.jpg": "/static/media/9.10bd1226649b2a1b628d.jpg",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.adc51aab4d771ab65f81.ttf",
+    "static/media/my_photo.jpg": "/static/media/my_photo.a909d2abff85aab1f799.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.e931bc0d14f5bbb1da22.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
+    "index.html": "/index.html",
+    "main.1fdf90e5.css.map": "/static/css/main.1fdf90e5.css.map",
+    "main.8aebadc3.js.map": "/static/js/main.8aebadc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fdf90e5.css",
+    "static/js/main.8aebadc3.js"
+  ]
+}
