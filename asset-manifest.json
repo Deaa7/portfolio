@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51a77894.css",
+    "main.js": "/static/js/main.b03ecd04.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/media/1.png": "/static/media/1.1431037da783af21deca.png",
+    "static/media/5.jpg": "/static/media/5.c895e8f04aa9ef513f6f.jpg",
+    "static/media/5.png": "/static/media/5.c21ff93231b90a737069.png",
+    "static/media/6.jpg": "/static/media/6.a5122ac42ca06c5ce911.jpg",
+    "static/media/cer.png": "/static/media/cer.fe4fd914da508ceeb36a.png",
+    "static/media/3.jpg": "/static/media/3.b42a6a93816251fd2154.jpg",
+    "static/media/4.jpg": "/static/media/4.670e88e391e0fa431d40.jpg",
+    "static/media/2.png": "/static/media/2.19261b818a1e4698a997.png",
+    "static/media/2.jpg": "/static/media/2.8cc3ad7ea980a2265c47.jpg",
+    "static/media/GoogleDataAnalyticsCertificate_Badge20231022-29-l8lret.pdf": "/static/media/GoogleDataAnalyticsCertificate_Badge20231022-29-l8lret.10d3f100b4ce4f64ce22.pdf",
+    "static/media/3.png": "/static/media/3.ae9af0364b1d04d68101.png",
+    "static/media/React&Django.png": "/static/media/React&Django.78e9adef6be1183161df.png",
+    "static/media/1.jpg": "/static/media/1.1fc235a918cc83eea9c9.jpg",
+    "static/media/2025-ICPC Syrian CPC-Deaa-PLACE.pdf": "/static/media/2025-ICPC Syrian CPC-Deaa-PLACE.95a1d89a322d16c36ec8.pdf",
+    "static/media/2024-ICPCAlbaathandHamaUC-Deaa Naser-PLACE.pdf": "/static/media/2024-ICPCAlbaathandHamaUC-Deaa Naser-PLACE.c24d08db523c17b6b8c4.pdf",
+    "static/media/2025-ICPCAlbaathandHamaUC-Deaa-PLACE.pdf": "/static/media/2025-ICPCAlbaathandHamaUC-Deaa-PLACE.916b3819d76427e0bcf5.pdf",
+    "static/media/7.jpg": "/static/media/7.27951af9cf0e92db09dc.jpg",
+    "static/media/2023-ICPC Syrian CPC-Deaa Naser-PLACE.pdf": "/static/media/2023-ICPC Syrian CPC-Deaa Naser-PLACE.9ee118568c6f0ec0b620.pdf",
+    "static/media/2023-ICPC Al-baath and Hama UC-Deaa Naser-PLACE.pdf": "/static/media/2023-ICPC Al-baath and Hama UC-Deaa Naser-PLACE.021884d601a5575a4dd4.pdf",
+    "static/media/4.png": "/static/media/4.513ee4e2fc492c1e8c90.png",
+    "static/media/scpc.png": "/static/media/scpc.309b773375d08bd522d9.png",
+    "static/media/6.png": "/static/media/6.00768400940b8d8dafbe.png",
+    "static/media/my_photo.jpg": "/static/media/my_photo.6f4bfef00bdaa1c3914c.jpg",
+    "static/media/viz2.jpg": "/static/media/viz2.4e6635d8e7e44589bd47.jpg",
+    "static/media/viz1.jpg": "/static/media/viz1.10bd1226649b2a1b628d.jpg",
+    "static/media/pngimg.com - github_PNG40.jpg": "/static/media/pngimg.com - github_PNG40.bde7d7407d681708dbed.jpg",
+    "index.html": "/index.html",
+    "main.51a77894.css.map": "/static/css/main.51a77894.css.map",
+    "main.b03ecd04.js.map": "/static/js/main.b03ecd04.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51a77894.css",
+    "static/js/main.b03ecd04.js"
+  ]
+}
