@@ -1,0 +1,1224 @@
+
+#home_root {
+   background-color: black;
+   width: 100%;
+  min-height: 1000px ;
+  height: fit-content;
+  font-family: 'Segoe UI' ;
+  direction: ltr;
+}
+
+#home_first_section{
+   min-height: fit-content;
+   height: 1800px;
+   color:white;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+
+.image_and_bio_container{
+   width: 20%;
+   min-width: 200px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   background-color: rgb(26, 26, 26);
+   margin-left: 10px;
+   border-radius: 10px;
+   height: 101%;
+   margin-bottom: 15px;
+}
+
+#personal_details{
+ 
+   background-color: #111111;
+   margin-top: 10px;
+
+   padding:10px;
+   width: 100%;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   height: 87%;
+}
+
+#my_photo{
+   border-radius: 1000px;
+   width: 150px;
+   height: 150px;
+ 
+}
+ 
+#main_name{
+   font-size: 25px;
+   font-weight: normal;
+   width: 100%;
+   text-align: center;
+   margin: 3px 0px;
+}
+ 
+#personal_details_section1
+{
+   padding-bottom: 20px;
+   border-bottom:1px solid white;
+   margin-bottom: 20px;
+}
+
+#personal_details_section1 > div {
+   width: 100%;
+   font-size: 14px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 10px 0px ;
+}
+ 
+
+#personal_details_section2
+{
+   height: 100%;
+}
+#personal_details_section2 #section2_title{ 
+font-size: 25px;
+
+ margin-bottom: 15px;
+}
+
+#personal_details > div .sec2{
+   color:gray;
+}
+
+.skill_container{
+   width: 95%;
+   margin: 35px 0px;
+}
+
+#contact_me {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+cursor: pointer;
+}
+#contact_me i {
+   font-size: 32px;
+}
+.fa-whatsapp{
+ color: #25D366;
+}
+.fa-facebook{
+   color: #1877F2;
+}
+.fa-telegram{
+   color: #24A1DE;
+}
+
+.fa-linkedin{
+   color: #0077B5 ;
+}
+
+
+
+.skill_text_container{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   color:rgb(195, 195, 195);
+   font-size: 14px;
+}
+.empty_bar{
+   height: 10px;
+   margin-top: 5px;
+   background-color:gray;
+   width: 100%;
+   border-radius: 500px;
+}
+.full_bar{
+    height: 100%;
+    background-image: linear-gradient(50deg, #00d5ff ,#00ff80  );
+    border-radius: 500px;
+}
+
+#contact_me{
+ width: 100%;
+ bottom:1px;
+ left:10px;
+ height: 40px;
+ 
+}
+
+#bio{
+   text-align: center;
+   color:rgb(185, 185, 185);
+   font-size: 15px !important;
+}
+
+#section2{
+   width: 78%;
+   margin:auto;
+   background-color: #111111;
+   position: relative;
+   overflow: hidden;
+   padding-top: 20px;
+   border-radius: 10px;
+   height: 100%;
+   min-height: fit-content;
+   margin-bottom: 15px;
+}
+
+
+@keyframes show_name {
+   from{
+      opacity: 0;
+   }
+}
+
+.line1{
+   font-weight: normal;
+   font-size: 40px;
+   text-indent: 10px;
+}
+
+.part2_of_line1{
+   margin-left: 50px;
+   font-size: 25px;
+   
+}
+#python_icon   
+ {
+   font-size: 400px;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-name:rotate_background_icons ;
+   animation-timing-function: linear;
+   position: absolute;
+   right:-80px;
+   top:-80px;
+   color:rgba(128, 128, 128, 0.238);
+   
+}
+@keyframes rotate_background_icons {
+   from{
+      transform: rotateZ(360deg);
+   }
+}
+
+#counters_container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  margin-top: 100px;
+}
+ 
+
+.single_counter_container{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ width: 20%;
+ min-width: 130px;
+ display: flex;
+
+}
+.single_counter_container > div{
+   width: 100%;
+   text-align: center;
+}
+.single_counter_part1{
+   font-size: 40px;
+}
+.single_counter_part2{
+   color:gray;
+   font-size: 14px;
+}
+#my_experience{
+   margin-top: 25px;
+   position: relative;
+}
+
+#react_icon{
+   font-size: 400px;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-name:rotate_background_icons ;
+   animation-timing-function: linear;
+   position: absolute;
+   left:-80px;
+   top:350px;
+   color:rgba(128, 128, 128, 0.101);
+}
+.tailwind_icon{
+   font-size: 300px;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-name:tailwind-icon-animation ;
+   animation-timing-function: linear;
+   position: absolute;
+   right:40%;
+   bottom:20%;
+   z-index: 5555;
+
+   color:rgba(128, 128, 128, 0.101);
+
+}
+@keyframes tailwind-icon-animation{
+0%{
+    transform:  rotateX(0);
+}
+100%{
+   transform:  rotateX(360deg);
+
+}
+}
+
+.typescript{
+   font-size: 300px;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-name:typescript-icon-animation ;
+   animation-timing-function: linear;
+   position: absolute;
+   left:80px;
+   top:90%;
+   z-index: 5555;
+   color:rgba(0, 110, 255, 0.101);
+}
+@keyframes typescript-icon-animation {
+   0%{
+      transform: translateY(0px) ;
+   }
+ 
+   50%{
+      
+      transform: translateY(50px) ;
+   } 
+ 
+   100%{
+      transform: translateY(0px) ;
+   }
+}
+.javascript{
+   font-size: 200px;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-name:javascript-icon-animation ;
+   animation-timing-function: linear;
+   position: absolute;
+   right:20px;
+   top:37%;
+   z-index: 5555;
+   color:rgba(238, 255, 0, 0.101);
+}
+
+@keyframes javascript-icon-animation {
+   0%{
+      transform: translateX(0px) ;
+   }
+ 
+   50%{
+      
+      transform: translateX(50px) ;
+   } 
+ 
+   100%{
+      transform: translateX(0px) ;
+   }
+}
+
+#my_experience_title , 
+#achievements_and_courses_title{
+   font-weight: normal;
+   margin-left: 15px;
+   font-size: 30px;
+   color:rgb(185, 185, 185);
+}
+
+#my_experience_body{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 30px;
+
+}
+
+.experience_root{
+   width: 25%;
+   /* min-width: 300px; */
+   background-color: rgba(128, 128, 128, 0.101);
+   border-radius: 10px;
+   font-weight: normal;
+   padding:20px;
+   min-height: 430px;
+   /* height: fit-content; */
+   margin:15px;
+
+}
+
+.experience_title{
+   font-weight: normal;
+   color:rgb(198, 198, 198);
+}
+
+.experience_text{
+   color:gray;
+   width: 100%;
+
+   font-weight: normal;
+}
+
+
+
+
+#achievements_and_courses_container
+{
+   background-color: #111111;
+   width: 99%;
+   margin:auto;
+  padding:20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+
+}
+#achievements_and_courses_title{
+   margin-bottom: 30px;
+}
+
+#scpc_image{
+   width:50px;
+}
+
+.single_achievement_title{
+   width: fit-content;
+   display: flex;
+   font-weight: normal;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   font-size: 35px;
+   margin-bottom: 40px;
+}
+.single_achievement_body{
+   color:gray;
+   margin-top:10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.single_achievement_body_image_section{
+   height: 400px;
+   width: 50%;
+   min-width: 600px;
+ }
+ .row1 ,
+ .row2{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 190px;
+ 
+   width: 100%;
+   margin: 3px 0px;
+ }
+ .big_image{
+   background-position: center;
+   background-size: cover;
+   width: 50%;
+   height: 100%;
+   background-image: url('./scpc/4.jpg');
+   margin: 2px;
+   border-radius: 5px;
+}
+.small_image{
+   border-radius: 5px;
+   background-position: center;
+   background-size: cover;
+   width: 45%;
+   height: 100%;
+   background-image: url('./scpc/6.jpg');
+   margin: 2px; 
+}
+.big_image.s{
+    background-image: url('./scpc/2.jpg');
+ }
+ .small_image.s{
+   background-image: url('./scpc/5.jpg');
+ }
+ 
+ .link{
+   color:rgb(176, 176, 176);
+   transition: 300ms;
+   font-size: 16px;
+}
+
+.link:hover{
+   color:rgb(224, 224, 224);
+ }
+
+ .single_achievement_body  li
+ {
+   margin: 10px 0px;
+ }
+
+#data_analysis_course,
+#web_programming_course
+{
+margin-top: 50px;
+}
+
+ #data_analysis_course .row1 ,
+ #data_analysis_course .row2{
+   flex-direction: row-reverse;
+ }
+
+#data_analysis_course  .small_image.s ,
+#data_analysis_course  .small_image.f  {
+   background-image: none;
+   width: 20%;
+}
+#data_analysis_course  .small_image.s
+{
+   
+   object-fit: cover;
+   width: 35%;
+   background-image: url('./cer.png');
+}
+#data_analysis_course  .big_image.f
+{
+    width: 70%;
+    
+   background-image: url('./viz2.jpg');
+}
+
+#data_analysis_course  .big_image.s{
+   width: 60%;
+   background-image: url('./viz1.jpg');
+}
+
+
+
+#web_programming_course_body > p{
+   width: 40%;
+}
+
+#web_project_list{
+   width: 100%;
+}
+
+#web_project_list li{
+   margin: 10px 0px;
+}
+
+.web_project_link a{
+   font-weight: normal;
+   font-size: 20px !important;
+}
+
+.web_project_link{
+   margin: 15px 0px;
+}
+
+#web_project_list li::marker {
+   color:rgb(176, 176, 176);
+   font-size: large;
+}
+.web_list_project_body{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.web_list_project_body   p{
+   width: 36%;
+   margin-bottom: 15px;
+   min-width: 350px;
+}
+ 
+  .image_gallery_root{  
+   width: 40%;
+   min-width: 400px;
+   background-color: rgb(14, 13, 13);
+   height: 300px;
+   border-radius: 5px;
+   position: relative;
+}
+.left_button,
+.right_button  
+{
+  font-size: 40px;
+  color:rgb(0, 195, 101);
+  position: absolute;
+  left:40%;
+  bottom:-2%;
+  cursor: pointer;
+  transition: 200ms;
+  user-select: none;
+  
+}
+.right_button:hover{
+ color:rgb(0, 255, 132);
+ text-shadow: 0px 0px 5px rgb(0, 255, 132);
+ transform: translateX(5px);
+
+}
+.left_button:hover{
+   color:rgb(0, 255, 132);
+   text-shadow: 0px 0px 5px rgb(0, 255, 132);
+   transform: translateX(-5px);
+}
+.right_button{
+ 
+   left:unset;
+   right:40%;
+}
+
+.image_gallery_image{
+   width: 100%;
+   height: 88%;
+   margin:auto;
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+
+}
+
+#git_course > p
+{
+   color:gray;
+}
+.github_icon{
+   font-size: 300px;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-name:github ;
+   animation-timing-function: linear;
+   position: absolute;
+   right:40px;
+   top:1100px;
+   color:rgba(128, 128, 128, 0.101);  
+}
+@keyframes github{
+   0%{
+      transform: translateY(50px) translateX(50px);
+   }
+   25%{
+      
+      transform: translateY(0px) translateX(0px);
+   }
+   50%{
+      
+      transform: translateY(50px) translateX(-50px);
+   }
+   75%{
+      transform: translateY(0px) translateX(0px); 
+   }
+   100%{
+      transform: translateY(50px) translateX(50px);
+   }
+}
+
+ 
+#git_course li{
+ margin: 15px 0px;
+}
+#git_course li::marker{
+   color:gray;
+}
+.colored_text{
+   background-image: linear-gradient(50deg, #00d5ff ,#00ff80, #00d5ff ,#00ff80 );
+   color:transparent;
+   background-clip: text;
+}
+.techniques_used{
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   min-width: 200px;
+   margin-bottom: 15px;
+}
+.techniques_used span{
+   /* color:rgb(246, 255, 0); */
+   width: 30%;
+   font-size: 18px;
+   display: block;
+   margin:2px;
+   background-image: linear-gradient(50deg, #00d5ff ,#00ff80, #00d5ff ,#00ff80 );
+   color:transparent;
+   background-clip: text;
+   
+}
+
+
+@media (max-width: 768px){
+
+
+   #home_root {
+      background-color: black;
+      width: 100%;
+     min-height: 1000px ;
+     height: fit-content;
+     font-family: 'Segoe UI' ;
+     direction: ltr;
+   }
+   
+   #home_first_section{
+      height: fit-content;
+      min-height: 400px;
+      color:white;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding-top: 50px;
+      padding-bottom: 20px;
+   }
+   
+   .image_and_bio_container{
+      width: 90%;
+      min-width: 200px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 90%;
+      background-color: rgb(26, 26, 26);
+      padding-top:15px;
+      /* margin-left: 10px; */
+      margin:auto;
+      border-radius: 10px;
+   }
+   
+   #personal_details{
+    
+      background-color: #111111;
+      margin-top: 10px;
+      padding:10px;
+      width: 100%;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+   }
+   
+   #my_photo{
+      border-radius: 1000px;
+      width: 150px;
+      height: 150px;
+    
+   }
+    
+   #main_name{
+      font-size: 25px;
+      font-weight: normal;
+      width: 100%;
+      text-align: center;
+      margin: 3px 0px;
+   }
+    
+   #personal_details_section1
+   {
+      padding-bottom: 20px;
+      border-bottom:1px solid white;
+      margin-bottom: 20px;
+   }
+   
+   #personal_details_section1 > div {
+      width: 100%;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 10px 0px ;
+   }
+   
+   #personal_details_section2 #section2_title{ 
+    font-size: 25px;
+    margin-bottom: 15px;
+   }
+   
+   #personal_details > div .sec2{
+      color:gray;
+   }
+   
+   .skill_container{
+      width: 95%;
+      margin:auto;
+      margin: 20px 0px;
+   }
+   
+   #contact_me {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   cursor: pointer;
+   }
+   #contact_me i {
+      font-size: 32px;
+   }
+   .fa-whatsapp{
+    color: #25D366;
+   }
+   .fa-facebook{
+      color: #1877F2;
+   }
+   .fa-telegram{
+      color: #24A1DE;
+   }
+   
+   .fa-linkedin{
+      color: #0077B5 ;
+   }
+   
+   
+   
+   .skill_text_container{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color:rgb(195, 195, 195);
+      font-size: 14px;
+   }
+   .empty_bar{
+      height: 10px;
+      margin-top: 5px;
+      background-color:gray;
+      width: 100%;
+      border-radius: 500px;
+   }
+   .full_bar{
+       height: 100%;
+       background-image: linear-gradient(50deg, #00d5ff ,#00ff80  );
+       border-radius: 500px;
+   }
+   
+   #contact_me{
+    width: 100%;
+    bottom:1px;
+    left:10px;
+    height: 40px;
+    
+   }
+   
+   #bio{
+      text-align: center;
+      color:rgb(185, 185, 185);
+      font-size: 15px !important;
+   }
+   
+   #section2{
+      width: 92%;
+      margin:auto;
+      background-color: #111111;
+      position: relative;
+      overflow: hidden;
+      padding-top: 50px;
+      border-radius: 10px;
+   }
+   
+   @keyframes show_name {
+      from{
+         opacity: 0;
+      }
+   }
+   
+   .line1{
+      font-weight: normal;
+      font-size: 30px;
+      text-indent: 10px;
+   }
+   
+   .part2_of_line1{
+      margin-left: 5px;
+      font-size: 20px;
+      
+   }
+   #python_icon   
+    {
+      font-size: 300px;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-name:rotate_background_icons ;
+      animation-timing-function: linear;
+      position: absolute;
+      right:-80px;
+      top:-80px;
+      color:rgba(128, 128, 128, 0.238);
+      
+   }
+   @keyframes rotate_background_icons {
+      from{
+         transform: rotateZ(360deg);
+      }
+   }
+   
+   #counters_container{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+     margin-top: 100px;
+   }
+    
+   
+   .single_counter_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 20%;
+    min-width: 130px;
+    display: flex;
+   
+   }
+   .single_counter_container > div{
+      width: 100%;
+      text-align: center;
+   }
+   .single_counter_part1{
+      font-size: 40px;
+   }
+   .single_counter_part2{
+      color:gray;
+      font-size: 14px;
+   }
+   #my_experience{
+      margin-top: 25px;
+      position: relative;
+   }
+   
+   #react_icon{
+      font-size: 200px;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-name:rotate_background_icons ;
+      animation-timing-function: linear;
+      position: absolute;
+      left:-80px;
+      top:350px;
+      color:rgba(128, 128, 128, 0.101);
+   }
+   
+   #my_experience_title , 
+   #achievements_and_courses_title{
+      font-weight: normal;
+      margin-left: 15px;
+      font-size: 30px;
+      color:rgb(185, 185, 185);
+   }
+   
+   #my_experience_body{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin-top: 30px;
+   }
+   
+   .experience_root{
+      width: 100%;
+      min-width: 200px;
+      background-color: rgba(128, 128, 128, 0.101);
+      border-radius: 10px;
+      font-weight: normal;
+      padding:10px;
+      min-height: 430px;
+      height: fit-content;
+      margin:15px;
+   }
+   
+   .experience_title{
+      font-weight: normal;
+      color:rgb(198, 198, 198);
+   }
+   
+   .experience_text{
+      color:gray;
+      font-weight: normal;
+      font-size: 15px;
+   }
+   
+   
+   #achievements_and_courses_container
+   {
+      background-color: #111111;
+      width: 99%;
+      margin:auto;
+     padding:20px;
+     margin-top: 10px;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+   
+   }
+   #achievements_and_courses_title{
+      margin-bottom: 30px;
+   }
+   
+   #scpc_image{
+      width:50px;
+   }
+   
+   .single_achievement_title{
+      width: fit-content;
+      display: flex;
+      font-weight: normal;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 35px;
+      margin-bottom: 40px;
+   }
+   .single_achievement_body{
+      color:gray;
+      margin-top:10px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   
+   .single_achievement_body_image_section{
+      height: 400px;
+      width: 50%;
+      min-width:250px;
+    }
+    .row1 ,
+    .row2{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 190px;
+    
+      width: 100%;
+      margin: 3px 0px;
+    }
+    .big_image{
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      background-image: url('./scpc/4.jpg');
+      margin: 2px;
+      border-radius: 5px;
+   }
+   .small_image{
+      display: none;
+      border-radius: 5px;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      background-image: url('./scpc/6.jpg');
+      margin: 2px; 
+   }
+   .big_image.s{
+       background-image: url('./scpc/2.jpg');
+    }
+    .small_image.s{
+      background-image: url('./scpc/5.jpg');
+    }
+    
+    .link{
+      color:rgb(176, 176, 176);
+      transition: 300ms;
+      font-size: 16px;
+   }
+   
+   .link:hover{
+      color:rgb(224, 224, 224);
+    }
+   
+    .single_achievement_body  li
+    {
+      margin: 10px 0px;
+    }
+   
+   #data_analysis_course,
+   #web_programming_course
+   {
+   margin-top: 50px;
+   }
+   
+    #data_analysis_course .row1 ,
+    #data_analysis_course .row2{
+      flex-direction: row-reverse;
+    }
+   
+   #data_analysis_course  .small_image.s ,
+   #data_analysis_course  .small_image.f  {
+      background-image: none;
+      width: 100%;
+   }
+   #data_analysis_course  .small_image.s
+   {
+      
+      object-fit: cover;
+      width: 100%;
+      background-image: url('./cer.png');
+   }
+   #data_analysis_course  .big_image.f
+   {
+       width: 100%;
+       
+      background-image: url('./viz2.jpg');
+   }
+   
+   #data_analysis_course  .big_image.s{
+      width: 100%;
+      background-image: url('./viz1.jpg');
+   }
+   
+   
+   
+   #web_programming_course_body > p{
+      width: 100%;
+   }
+   
+   #web_project_list{
+      width: 100%;
+   }
+   
+   #web_project_list li{
+      margin: 10px 0px;
+   }
+   
+   .web_project_link a{
+      font-weight: normal;
+      font-size: 20px !important;
+   }
+   
+   .web_project_link{
+      margin: 15px 0px;
+   }
+   
+   #web_project_list li::marker {
+      color:rgb(176, 176, 176);
+      font-size: large;
+   }
+   .web_list_project_body{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+   }
+   .web_list_project_body   p{
+      width: 36%;
+
+      margin-bottom: 15px;
+      min-width: 180px;
+   }
+    
+     .image_gallery_root{  
+      width: 40%;
+      min-width: 220px;
+      background-color: rgb(14, 13, 13);
+      height: 300px;
+      border-radius: 5px;
+      position: relative;
+   }
+   .left_button,
+   .right_button  
+   {
+     font-size: 40px;
+     color:rgb(0, 195, 101);
+     position: absolute;
+     left:30%;
+     bottom:-2%;
+     cursor: pointer;
+     transition: 200ms;
+     user-select: none;
+     
+   }
+   .right_button:hover{
+    color:rgb(0, 255, 132);
+    text-shadow: 0px 0px 5px rgb(0, 255, 132);
+    transform: translateX(5px);
+   
+   }
+   .left_button:hover{
+      color:rgb(0, 255, 132);
+      text-shadow: 0px 0px 5px rgb(0, 255, 132);
+      transform: translateX(-5px);
+   }
+   .right_button{
+      left:unset;
+      right:30%;
+   }
+   
+   .image_gallery_image{
+      width: 100%;
+      height: 88%;
+      margin:auto;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+   
+   }
+   
+   #git_course > p
+   {
+      color:gray;
+   }
+   .github_icon{
+      font-size: 200px;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-name:github ;
+      animation-timing-function: linear;
+      position: absolute;
+      right:40px;
+      top:1500px;
+      color:rgba(128, 128, 128, 0.101);  
+   }
+
+   @keyframes github{
+      0%{
+         transform: translateY(50px) translateX(50px);
+      }
+      25%{
+         
+         transform: translateY(0px) translateX(0px);
+      }
+      50%{
+         
+         transform: translateY(50px) translateX(-50px);
+      }
+      75%{
+         transform: translateY(0px) translateX(0px); 
+      }
+      100%{
+         transform: translateY(50px) translateX(50px);
+      }
+   }
+   
+    
+   #git_course li{
+    margin: 15px 0px;
+   }
+   #git_course li::marker{
+      color:gray;
+   }
+   .colored_text{
+      background-image: linear-gradient(50deg, #00d5ff ,#00ff80, #00d5ff ,#00ff80 );
+      color:transparent;
+      background-clip: text;
+   }
+
+   .techniques_used{
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /* min-width: 230px; */
+      margin-bottom: 15px;
+   }
+   .techniques_used span{
+      /* color:rgb(246, 255, 0); */
+      width: 50%;
+      font-size: 14px;
+      display: block;
+      margin:2px;
+      background-image: linear-gradient(50deg, #00d5ff ,#00ff80, #00d5ff ,#00ff80 );
+      color:transparent;
+      background-clip: text;
+      
+   }
+   
+
+}
