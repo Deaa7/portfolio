@@ -58,18 +58,7 @@ export default function Home() {
   });
 
   delay += 100;
-  let image = (
-    <img
-      style={{
-        width: "50%",
-        animationDelay: delay.toString() + "ms",
-        animationName: "show_name",
-        opacity: "0",
-      }}
-      onAnimationEnd={(e) => (e.target.style.opacity = "1")}
-      src={require("./React&Django.png")}
-    />
-  );
+ 
 
   let exp = `
   In my journey as a front-end web developer, I have honed my skills in HTML, CSS, tailwind, TypeScript and JavaScript, 
@@ -77,7 +66,7 @@ laying the foundation for creating visually appealing and interactive web interf
   By practicing my craft through building simple web applications
 I have utilized tools like Axios and the fetch API to make asynchronous API calls,
  handle responses, and update the UI with the fetched data. Additionally,
- I have taken my skills a step further by deploying eight web projects online,
+ I have taken my skills a step further by deploying nine web projects online,
  allowing me to showcase my work to a wider audience and gain valuable experience in
  the deployment process.
  
@@ -236,7 +225,7 @@ efficiently retrieve data from databases. I have honed my skills by solving arou
               <div className="single_counter_container">
                 <div className="single_counter_part1 colored_text">
                   +
-                  <CountUp start={1} end={8} />
+                  <CountUp start={1} end={9} />
                 </div>
                 <div className="single_counter_part2">
                   deployed web projects
@@ -416,7 +405,7 @@ function AchievementsCourses() {
             </div>
           </div>
 
-          <div className="single_achievement_body_image_section">
+          {/* <div className="single_achievement_body_image_section">
             <div className="row1">
               <div className="big_image f"></div>
               <div className="small_image f"></div>
@@ -426,7 +415,7 @@ function AchievementsCourses() {
               <div className="small_image s"></div>
               <div className="big_image s"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>{" "}
       {/* end of a single course  */}
