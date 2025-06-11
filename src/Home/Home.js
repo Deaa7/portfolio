@@ -1,7 +1,10 @@
 import { useState } from "react";
 import "./Home.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import CountUp from "react-countup";
+import Slider from "react-slick";
 export default function Home() {
   let str1 = "Hello";
   let str2 = ", my name is Deaa ";
@@ -611,6 +614,44 @@ function AchievementsCourses() {
                 <ImagesGallery folder="SVM" />
               </div>
             </li>
+                        <li>
+              <h3>
+                <a
+                  href="https://kanban-one-chi.vercel.app/"
+                  className="link"
+                  target="blank">
+                  Kanban
+                </a>
+              </h3>
+
+              <div className="techniques_used">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span> Typescript</span>
+                <span> React.js</span>
+                <span> Redux </span>
+                <span> tailwind </span>
+                <span> vite </span>
+                <span> shadcn / ui </span>
+                <span> lucide react </span>
+                <span> python </span>
+                <span> django </span>
+                <span> rest framework </span>
+                <span> mysql </span>
+
+              </div>
+
+              <div className="web_list_project_body">
+                <p>
+                  Kanban: Senior Task Manager for Modern Productivity <br />
+                  <strong>-</strong> instant real-time updates <br />
+                  <strong>-</strong> smart dark/light mode
+                </p>
+
+                <ImagesGallery folder="kanban" />
+              </div>
+            </li>
+
             <li>
               <h3 className="web_project_link">
                 <a
@@ -793,7 +834,7 @@ function AchievementsCourses() {
             </li>
           </ol>
         </div>
-      </div>{" "}
+      </div>
       {/* end of a single course  */}
       <div id="git_course">
         <h2 id="git_course" className="single_achievement_title colored_text">
@@ -829,61 +870,131 @@ function ImagesGallery({ folder = "" }) {
 
   let url = "";
 
-  try {
-    if (folder == "wheretogo")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".jpg");
-    else if (folder == "SVI")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "SVM")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "teacherEditor")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "ReduxStore")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "ReduxBlogApp")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "tailwind-css-project")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-    else if (folder == "klimate")
-      url = require("./" + folder.toString() + "/" + index.toString() + ".png");
-  } catch {}
-  let upper = 0;
-  if (folder == "wheretogo") upper = 7;
-  else if (folder === "teacherEditor") upper = 4;
-  else if (folder === "SVI") upper = 6;
-  else if (folder === "ReduxStore") upper = 3;
-  else if (folder === "ReduxBlogApp") upper = 5;
-  else if (folder === "tailwind-css-project") upper = 2;
-  else if (folder === "klimate") upper = 4;
+  let images = [];
+  if (folder == "wheretogo")
+  {
+    for (let i = 1; i <= 7; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".jpg")}
+          alt="" />
+      </div>);
+    }
+  }
 
+    if (folder == "SVI")
+  {
+    for (let i = 1; i <= 4; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  } 
+
+      if (folder == "SVM")
+  {
+    for (let i = 1; i <= 5; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+
+        if (folder == "teacherEditor")
+  {
+    for (let i = 1; i <= 4; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+
+   if (folder == "ReduxStore")
+  {
+    for (let i = 1; i <= 3; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+     if (folder == "ReduxBlogApp")
+  {
+    for (let i = 1; i <= 5; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+
+
+  if (folder == "tailwind-css-project")
+  {
+    for (let i = 1; i <= 2; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+
+    if (folder == "klimate")
+  {
+    for (let i = 1; i <=4; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+      if (folder == "kanban")
+  {
+    for (let i = 1; i <= 4; i++)
+    {
+      images.push(<div>
+        <img
+          src={require("./" + folder + "/" + i.toString() + ".png")}
+          alt="" />
+      </div>);
+    }
+  }
+ 
+  let settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+  console.log(images);
   return (
     <>
-      <div className="image_gallery_root">
-        <div
-          className="left_button"
-          onClick={() => set_index((e) => (e > 1 ? e - 1 : e))}>
-          {" "}
-          {"<"}{" "}
-        </div>
-        <div
-          className="right_button"
-          onClick={() => set_index((e) => (e < upper ? e + 1 : e))}>
-          {" "}
-          {">"}{" "}
-        </div>
-        <div
-          className="image_gallery_image"
-          style={{
-            backgroundImage: `url(" ${url} ")`,
-          }}></div>
-      </div>
+      <Slider className="slider"  {...settings}>
+     {images}
+      </Slider>
+
+   
     </>
   );
 }
 
-function Arabic() {
-  return <></>;
-}
-function English() {
-  return <></>;
-}
+ 
